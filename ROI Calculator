@@ -1,0 +1,12 @@
+def calculate_roi():
+    # Getting user input
+    investment = float(input("Enter the investment amount: "))
+    profit_contribution = float(input("Enter the profit contribution: "))
+
+    # Calculating ROI
+    roi = (profit_contribution - investment) / investment
+
+    # Converting ROI to percentage and displaying it
+    print(f"Return on Investment (ROI): {roi * 100:.2f}%")
+
+calculate_roi()
